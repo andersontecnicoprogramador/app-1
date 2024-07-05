@@ -1,5 +1,7 @@
 
 import { Text, View, Image, TouchableOpacity, StyleSheet } from "react-native";
+import { Link } from "expo-router";
+
 
 export default function Index() {
   return (
@@ -20,13 +22,19 @@ export default function Index() {
       source={require('../assets/images/card-01.png')} 
       />
       
-      <Text style={{ fontSize: 18}}>Pés sem dor</Text>
+      <Text style={{ fontSize:18
+      }}>Pés sem dor</Text>
 
      
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>Pés sem dor</Text>
-      </TouchableOpacity>
+<Link href="/products" style={styles.button}asChild>
+        <TouchableOpacity >
 
+          <Text style={styles.buttonText}>
+            Entre no App Pés sem dor
+          </Text>
+
+        </TouchableOpacity>
+      </Link>
     </View>
   );
 }

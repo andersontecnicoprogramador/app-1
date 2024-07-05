@@ -16,6 +16,7 @@ export default function RootLayout() {
     >
       {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       	<Stack.Screen name="index" options={{ title: "Pés sem dor" }} />
+        <Stack.Screen name="Products" options={{ title: "pés sem dor" }} />
     </Stack>
   );
 }
