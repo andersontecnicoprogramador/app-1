@@ -7,38 +7,38 @@ export default function Products() {
     const listProduct = [
         {
             id: 1,
-            title: 'Espresso',
-            description: 'Assim como o espresso é a base para muitas bebidas de café, C é uma linguagem fundamental amplamente usada como base para muitas outras linguagens de programação.',
+            title: 'Tratamento de Unhas Encravadas',
+            description: 'Remoção e ajuste das unhas para prevenir e tratar infecções e dor causadas por unhas encravadas..',
             image: '../assets/images/card-001.png', // URL da imagem de exemplo
         },
         {
             id: 2,
-            title: 'Latte',
-            description: 'O Python é conhecido por sua simplicidade e sua capacidade de "suavizar" o processo de programação, assim como o leite suaviza o sabor do café no latte',
+            title: 'Tratamento de Calos e Calosidades',
+            description: 'Remoção de calos e calosidades para aliviar a dor e prevenir complicações como úlceras.',
             image: '../assets/images/card-002.png', // URL da imagem de exemplo
         },
         {
             id: 3,
-            title: 'Cappuccino',
-            description: 'Java é robusto e fortemente tipado, assim como o cappuccino é uma mistura equilibrada de café e leite',
+            title: 'Tratamento de Micoses nas Unhas (Onicomicose)',
+            description: 'Terapia antifúngica e acompanhamento para o tratamento de infecções fúngicas nas unhas.',
             image: '../assets/images/card-003.png', // URL da imagem de exemplo
         },
         {
             id: 4,
-            title: 'Mocha',
-            description: 'Assim como o mocha é uma combinação de café e chocolate, JavaScript combina elementos de várias linguagens e é versátil em aplicação, assim como o mocha é versátil em sabor',
+            title: 'Tratamento de Verrugas Plantares',
+            description: 'Aplicação de tratamentos tópicos ou crioterapia para remover verrugas causadas pelo vírus HPV.',
             image: '../assets/images/card-004.png', // URL da imagem de exemplo
         },
         {
             id: 5,
-            title: 'Macchiato',
-            description: 'Swift é moderno, ágil e focado no desenvolvimento para dispositivos Apple, assim como o macchiato é uma variação focada e concentrada de café',
+            title: 'Correção de Deformidades dos Pés',
+            description: 'Orientação e aplicação de órteses para corrigir problemas estruturais, como joanetes ou dedos em garra.',
             image: '../assets/images/card-005.png', // URL da imagem de exemplo
         },
         {
             id: 6,
-            title: 'Affogato',
-            description: 'Ruby é conhecido por sua elegância e é frequentemente usado para criar aplicações web interativas, assim como o affogato combina café e sorvete de maneira única',
+            title: 'Avaliação e Tratamento de Pé Diabético',
+            description: 'Prevenção e tratamento de feridas em pacientes diabéticos para evitar complicações graves.',
             image: '../assets/images/card-002.png', // URL da imagem de exemplo
         },
     ];

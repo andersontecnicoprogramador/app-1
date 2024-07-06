@@ -30,7 +30,7 @@ export default function Index() {
         <TouchableOpacity >
 
           <Text style={styles.buttonText}>
-            Luciana vai dormir
+            Entre no App Pés sem dor
           </Text>
 
         </TouchableOpacity>
