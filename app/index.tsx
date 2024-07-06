@@ -26,11 +26,11 @@ export default function Index() {
       }}>Pés sem dor</Text>
 
      
-<Link href="/products" style={styles.button}asChild>
+<Link href="/Products" style={styles.button}asChild>
         <TouchableOpacity >
 
           <Text style={styles.buttonText}>
-            Entre no App Pés sem dor
+            Luciana vai dormir
           </Text>
 
         </TouchableOpacity>
